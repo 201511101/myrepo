@@ -1,8 +1,8 @@
 package headfirst.strategy;
 
 public abstract class Duck {
-  FlyBehavior flybehavior;
-  QuackBehavior quackbehavior;
+  FlyBehavior flyBehavior;
+  QuackBehavior quackBehavior;
   public Duck() {}
   public void setFlyBehavior (FlyBehavior fb) {
     flyBehavior=fb;
